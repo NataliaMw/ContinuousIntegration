@@ -23,6 +23,10 @@ def test_divide():
     assert calculator.divide(2, 3) == 0.6666666666666666
     assert calculator.divide(2,2) == 1
 
+def test_add_strings():
+    assert calculator.add('space', 'ship') == 'spaceship'
+    assert calculator.add('a', 'a') == 'aa'
+
 # Run the tests
 # $ pytest test_calculator.py
 # ============================= test session starts ==============================

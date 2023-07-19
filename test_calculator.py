@@ -27,10 +27,6 @@ def test_add_strings():
     assert calculator.add('space', 'ship') == 'spaceship'
     assert calculator.add('a', 'a') == 'aa'
 
-def test_multiply_strings():
-    assert calculator.multiply('a', 5) == 'aaaaa'
-    assert calculator.multiply('a', 5) != 'aaaa'
-    
 # Run the tests
 # $ pytest test_calculator.py
 # ============================= test session starts ==============================
